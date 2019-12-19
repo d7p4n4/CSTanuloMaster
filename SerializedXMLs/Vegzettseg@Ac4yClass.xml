@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ac4yClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Vegzettseg</Name>
+  <Ancestor>Object</Ancestor>
+  <PropertyList>
+    <Ac4yProperty>
+      <Name>IskolaNeve</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>Szint</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>Szak</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+  </PropertyList>
+  <GUID />
+  <Namespace>CSTanuloMaster</Namespace>
+</Ac4yClass>

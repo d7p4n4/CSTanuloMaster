@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Ac4yClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Tanulo</Name>
+  <Ancestor>Object</Ancestor>
+  <PropertyList>
+    <Ac4yProperty>
+      <Name>Vezeteknev</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>Cim</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>Kor</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>Keresztnev</Name>
+      <Type>String</Type>
+      <Embedded>false</Embedded>
+      <WidgetType>TextBox</WidgetType>
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>NyelvList</Name>
+      <Type>List&lt;Nyelv&gt;</Type>
+      <Embedded>true</Embedded>
+      <WidgetType />
+    </Ac4yProperty>
+    <Ac4yProperty>
+      <Name>VegzettsegList</Name>
+      <Type>List&lt;Vegzettseg&gt;</Type>
+      <Embedded>true</Embedded>
+      <WidgetType />
+    </Ac4yProperty>
+  </PropertyList>
+  <GUID />
+  <Namespace>CSTanuloMaster</Namespace>
+</Ac4yClass>
