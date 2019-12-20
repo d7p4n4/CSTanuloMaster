@@ -33,11 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CSAc4yAnnotationsFW">
-      <HintPath>..\..\..\..\..\Library\LPCSharp\CSAc4yAnnotationsFW.dll</HintPath>
-    </Reference>
-    <Reference Include="CSSerializerLibFW">
-      <HintPath>..\..\..\GitHubClones\CSSerializerLibFW\bin\Debug\CSSerializerLibFW.dll</HintPath>
+    <Reference Include="CSAc4yClassFW, Version=1.2019.1219.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Library\LPCSharp\CSAc4yClassFW.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

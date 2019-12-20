@@ -11,6 +11,7 @@ namespace CSTanuloMaster
     class TanuloKontener
     {
         [Ac4yEmbedded]
+        [Ac4yMultiple(true)]
         public List<Tanulo> TanuloLista { get; set; }
     }
 }

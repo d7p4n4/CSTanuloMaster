@@ -11,10 +11,13 @@ namespace CSTanuloMaster
     class Vegzettseg
     {
         [Ac4yWidgetType("TextBox")]
+        [Ac4yMultiple(false)]
         public string IskolaNeve { get; set; }
         [Ac4yWidgetType("TextBox")]
+        [Ac4yMultiple(false)]
         public string Szint { get; set; }
         [Ac4yWidgetType("TextBox")]
+        [Ac4yMultiple(false)]
         public string Szak { get; set; }
     }
 }
